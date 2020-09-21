@@ -1,16 +1,16 @@
 body {
   margin: 0px;
-  font-size: 72pt;
+  background-color: black;
 }
 
 .page {
   height: 100vh;
-  display: flex;
-  background-color: black;
+  display: grid;
+  place-items: center;
 }
 
 .container {
-  margin: auto;
+  font-size: 72pt;
   width: 500px;
   height: 500px;
   display: grid;
@@ -21,6 +21,7 @@ body {
 }
 
 .container div {
-  margin: auto;
+  display: grid;
+  place-items: center;
   cursor: pointer;
 }
